@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* container */
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* first-container */
+.first-container{
+    background:linear-gradient(#293a4a, #18222c) ;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.brand h1{
+    margin-top: 20px;
+}
+/* icons */
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+.cart p{
+    width: 22px;
+    height: 22px;
+    background-color: rgba(211, 211, 211, 0.288);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:6px ;
+    font-size: 14px;
+}
+
+
+/* second-container */
+
+/* category */
+.category{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.man{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.man p{
+    padding: 10px;
+    padding-left: 20px;
+}
+.shoe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.shoe p{
+    padding: 10px;
+}
+.shoe ~ p{
+    color: lightgray;
+}
+
+/* heading */
+.heading h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.849);
+    margin-top:20px ;
+}
+
+/* small-shoes */
+.small-shoes{
+    text-align: center;
+}
+
+/* stars */
+.stars{
+   padding: 10px 0 20px 0;
+    color: gold;
+    font-size: 14px;
+    margin:20px 0 0 20px;
+}
+
+/* prize */
+
+.prize .discount{
+    font-size: 25px;
+    margin:0 6px 0 20px;
+}
+.prize .original{
+    color: rgb(199, 198, 198);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+/* description */
+.description p{
+    font-size: 13px;
+    margin:30px 0 20px 20px;
+}
+
+/* options */
+.options{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* color */
+.color{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.color p{
+    font-size: 12px;
+    padding: 5px;
+}
+.color-option{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgba(211, 211, 211, 0.810);
+    border-radius: 20px;
+    padding: 10px;
+}
+.black-clr{
+    background-color:rgba(0, 0, 0, 0.788) ;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ckeck{
+    color: white;
+    font-size: 14px;
+}
+.white-clr{
+    background-color:rgba(211, 211, 211, 0.445) ;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+.brown-clr{
+    background-color:rgba(117, 27, 27, 0.911) ;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+/* size */
+.size{
+    display: flex;
+    text-align: center;
+    font-size: 12px;   
+    
+}
+.size p{
+    padding-bottom: 5px;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgba(211, 211, 211, 0.810);
+    border-radius: 20px;
+    padding: 10px;
+}
+.number-48{
+    margin:0 20px 0 10px;
+}
+.number .down{
+    margin-right:10px ;
+}
+/* quantity */
+.quantity{
+    display: flex;
+    flex-flow: column;
+    font-size: 12px;
+    margin-right:50px ;
+}
+.quantity p{
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+
+.quantity-number{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 25px 0 25px;
+    border: 1px solid rgba(211, 211, 211, 0.815);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+/* purchase */
+.purchase{
+    display: flex;
+    font-size: 14px;
+    margin: 30px 0 20px 20px;
+}
+.add-cart{
+    background-color: rgba(59, 125, 247, 0.856);
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    padding: 25px;
+}
+.save-list{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.save-list .heart{
+    margin-right:10px;
+}
+/* delivery-description */
+.delivery-description{
+    margin: 10px  5px 0 20px;
+}
+
+/* icons */
+.icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.icon1{
+    color: gray;
+    width: 33px;
+    height: 33px;
+    margin: 0 20px 0 0;
+    background-color:rgba(211, 211, 211, 0.342);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon2{
+    color: gray;
+    width: 33px;
+    height: 33px;
+    margin: 0 20px;
+    background-color:rgba(211, 211, 211, 0.342);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.icon3{
+    color: gray;
+    width: 33px;
+    height: 33px;
+    margin: 0 0 0 20px;
+    background-color:rgba(211, 211, 211, 0.342);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
