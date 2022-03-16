@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* navigation */
+.navigation{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.dento{
+    color: deepskyblue;
+}
+.navigation .dental{
+    color: deepskyblue;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.nav{
+    display: flex;
+
+}
+.hospital{
+    color: deepskyblue;
+    font-size: 12px;
+}
+.hospital1{
+    color: deepskyblue;
+    font-size: 10px;
+}
+/* ul */
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+}
+/* search */
+.search{
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+/* heading*/
+header{
+    background-image: linear-gradient(deepskyblue, dodgerblue );
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    position: relative;
+}
+.tittle{
+    margin: 20px;
+    line-height: 50px;
+}
+.tittle .h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'caveat', cursive;
+    margin-top:40px ;
+}
+.tittle h1{
+    font-size: 28px;
+    text-align: center;
+}
+.dental-icons{
+    text-align: center;
+}
+.dental-icons .icon{
+   width: 50px;
+   height: 50px;
+   background-color: dodgerblue;
+   margin: 15px 10px 0 10px;
+   border-radius: 50%;
+   border: 1px solid dodgerblue;
+   color: white;
+   padding-top: 15px;
+}
+
+
+/* information */
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: auto;
+}
+/* heading */
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+}
+.heading1{
+    display: flex;
+}
+.heading1 span{
+    height: 35px;
+    text-align: center;
+    width: 4px;
+    margin-right: 7px;
+    background-color: rgba(0, 0, 255, 0.637);
+}
+.heading1 p{
+    color:rgba(0, 0, 255, 0.637) ;
+    font-size: 10px;
+}
+.heading1 h2{
+    color: cyan;
+    font-size: 30px;
+}
+.view-more{
+    font-size: 12px;
+}
+/* hospitals1 */
+.hospitals1{
+    display: flex;
+    width: 100%;
+}
+.dsnr ul li{
+    display: block;
+}
+.kondapur ul li{
+    display: block;
+}
+.gachibowli ul li{
+    display: block;
+}
+.dsnr{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.308);
+    height: 150px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 25px;
+    font-size: 14px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 30px 30px 0;
+}
+
+.kondapur{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.308);
+    height: 150px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 25px;
+    font-size: 14px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 30px 30px 0;
+}
+
+.gachibowli{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.308);
+    height: 150px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 25px;
+    font-size: 14px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 30px 30px 0;
+}
+.dsnr-data{
+    position: relative;
+    margin: auto;
+ }
+ .kondapur-data{
+     position: relative;
+     margin: auto;
+  }
+  .gachibowli-data{
+     position: relative;
+     margin: auto;
+  }
+
+/* hospitals2 */
+.hospitals2{
+    display: flex;
+    width: 100%;
+}
+.miyapur ul li{
+    display: block;
+}
+.madhapur ul li{
+    display: block;
+}
+.jntu ul li{
+    display: block;
+}
+.miyapur{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.308);
+    height: 150px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 25px;
+    font-size: 14px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 30px 30px 0;
+}
+.madhapur{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.308);
+    height: 150px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 25px;
+    font-size: 14px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 30px 30px 0;
+}
+.jntu{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.308);
+    height: 150px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 25px;
+    font-size: 14px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 30px 30px 0;
+}
+.icon1{
+    background-color: deepskyblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+    margin-top: 30px;
+}
+.miyapur-data{
+    position: relative;
+    margin: auto;
+ }
+ .jntu-data{
+    position: relative;
+    margin: auto;
+ }
+ .madhapur-data{
+    position: relative;
+    margin: auto;
+ }
+
+/* 2nd-heading */
+.sec-heading{
+    background-image: linear-gradient(cyan, deepskyblue);
+    position: relative;
+    height: 270px;
+}
+.experiences{
+    margin: 250px 60px;
+    text-align: center;
+}
+.experiences img{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid white;
+}
+.experiences-details{
+    position: absolute;
+    display: flex;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.experiences-details h1{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.experiences-details .span{
+    height: 4px;
+    width: 30px;
+    background-color: white;
+    margin: 10px 0 10px 35px;
+    padding: 0 10px;
+}
+.experiences-details p{
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+/*our-team*/
+.our-team{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+/* 2nd-tiitle */
+.team-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: flex-end;
+    margin-bottom:20px ;
+    width: 100%;
+}
+.our-team1{
+    display: flex;
+}
+.our-team1 span{
+    height: 40px;
+    width: 3px;
+    background-color: blue;
+    margin-right: 10px;
+}
+.our-team1 p{
+    color: blue;
+    font-size: 12px;
+}
+.our-team1 h1{
+    color: cyan;
+    font-size: 30px;
+}
+.team-heading .viewall{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* group-of-images */
+.group-of-images{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+}
+/* doctor1 */
+.group-of-images .doctors1{
+    margin: 0 20px 0 0;
+    text-align: center;
+    line-height: 20px;
+}
+.doctors1 img{
+    border: 4px solid lightgray;
+}
+.doctors1 p{
+    font-size: 12px;
+}
+.doctors1 .contact{
+    font-size: 10px;
+}
+.specialist{
+    color: deepskyblue;
+    font-size: 12px;
+}
+/* doctor2 */
+.group-of-images .doctors2{
+    margin: 0 20px 0 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.doctors2 img{
+    border: 4px solid lightgray;
+}
+.doctors2 p{
+    font-size: 12px;
+}
+.doctors2 .contact{
+    font-size: 10px;
+}
+/* doctor3 */
+.group-of-images .doctors3{
+    margin: 0  0 0 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.doctors3 img{
+    border: 4px solid lightgray;
+}
+.doctors3 p{
+    font-size: 12px;
+}
+.doctors3 .contact{
+    font-size: 10px;
+}
+button{
+    background-color: lightseagreen;
+    padding: 5px 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    border: 1px solid lightseagreen;
+}
+button .info{
+    padding-right:10px ;
+}
+
+/* group-of-images */
+.group-of-image2{
+    margin: 50px 5px;
+}
+/* group1 */
+.group1{
+    display: flex;
+    width: 100%;
+}
+.photo1{
+    width: 25%;
+    height: 200px;
+    background-image:linear-gradient(rgba(0,0,225,0.75),rgba(0, 0, 225, 0.75)), url("https://zoiclinics.com/img/dentistry-intro-icon.jpg");
+    background-position:center ;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 20px;
+    font-size: 12px;
+    color: white;
+    padding: 20px;
+    margin: 2px;
+}
+.photo2{
+    margin: 2px;
+}
+/* group2 */
+.group2{
+    display: flex;
+    width: 100%;
+}
+.photo3{
+    margin: 2px;
+}
+.photo4{
+    margin: 2px;
+}
+.photo5{
+    width: 25%;
+    height: 200px;
+    background-image:linear-gradient(rgba(0,0,225,0.75),rgba(0, 0, 225, 0.75)), url("https://zoiclinics.com/img/dentistry-intro-icon.jpg");
+    background-position:center ;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 20px;
+    font-size: 12px;
+    color: white;
+    padding: 20px;
+    margin: 2px;
+}
+
+
+/* single-image */
+.single-image{
+    background-image: linear-gradient(white),(white);
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 300px;
+    
+}
+.single-image-image1{
+    width: 50%;
+}
+.single-image img{
+    border-top: 4px solid cyan;
+    border-right:4px solid cyan;
+    border-left: 4px solid deepskyblue;
+    border-bottom: 4px solid deepskyblue;
+    margin: 0 20px 0 0;
+}
+.tittle3{
+    display: flex;
+    flex-flow:column;
+   align-items: flex-end;
+   justify-content: flex-end;
+   align-content: flex-end;
+   text-align: justify;
+   width: 50%;
+}
+.testimonal{
+    display: flex;
+    text-align: end;
+}
+.testimonal2 p{
+    color: blue;
+    font-size: 10px;
+}
+.testimonal2 h3{
+    color: cyan;
+    font-size: 20px;
+}
+.bar{
+    background-color: blue;
+    width: 3px;
+    height:30px ;
+    margin-left: 3px;
+}
+.quote{
+    color: lightgray;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.data{
+    text-align: end;
+    line-height: 20px;
+    margin: 15px 0 15px 0;
+}
+.data h3{
+    font-size: 16px;
+}
+.data p{
+    font-size: 12px;
+}
+.twobar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+.bar2{
+    background-color: gray;
+    width: 30px;
+    height: 4px;
+}
+.bar3{
+    background-color: lightgray;
+    width: 30px;
+    height: 4px;
+}
+
+/* footer */
+footer{
+    background-image: linear-gradient(cyan,deepskyblue);
+    text-align: center;
+    color: white;
+}
+ .teeth{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.footer h2{
+     margin: 10px;
+}
+footer .footer1{
+    display: flex;
+    justify-content:center;
+}
+.footer2{
+   font-size: 14px;
+   margin: 5px;
+   line-height: 20px;
+}
+.footer-bar{
+    height: 40px;
+    width: 2px;
+    background-color: white;
+    margin: 0 40px;
+}
+
+
+@media screen and (max-width:1025px) {
+    .our-team{
+        margin: 100px 100px;
+    }
+    .single-image{
+        margin: 100px 150px;
+    }
+}
+@media screen and (max-width:700px) {
+    .single-image{
+        margin: 50px;
+    }
+    .container{
+        margin: 10px 50px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    ul li{
+        display: block;
+    }
+    .hospitals1{
+        display: flex;
+        flex-flow: column;
+    }
+    .hospitals2{
+        display: flex;
+        flex-flow: column;
+    }
+    .dsnr{
+        width: 100%;
+    }
+    .kondapur{
+        width: 100%;
+    }
+    .gachibowli{
+        width: 100%;
+    }
+    .miyapur{
+        width: 100%;
+    }
+    .jntu{
+        width: 100%;
+    }
+    .madhapur{
+        width: 100%;
+    }
+    .group-of-images{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .group-of-images .doctors1{
+        margin-bottom: 25px;
+    }
+    .group-of-images .doctors2{
+        margin-bottom: 25px;
+    }
+}
+
+
